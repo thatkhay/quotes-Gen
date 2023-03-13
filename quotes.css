@@ -1,0 +1,33 @@
+html{
+font-size: 16px;
+}
+
+body{
+   display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+#conDiv{
+padding: 2rem;
+color: ;
+}
+
+p{
+    font-size: larger;
+    font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+button{
+height: 2.5rem;
+width: 6rem;
+background-color: violet;
+border-radius: 20px;
+border: 2px solid violet;
+}
+button:hover{
+  background-color: rgb(250, 96, 224);
+}
