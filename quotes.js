@@ -50,7 +50,7 @@ const quoteText = document.querySelector('#quote');
 const geeButton = document.querySelector('#butt')
 const body = document.querySelector('body')
 const button = document.querySelector('button')
-const globe = document.querySelector('.globe')
+
 geeButton.addEventListener('click', () =>  {
     const randomQ = quotes[Math.floor(Math.random() * quotes.length)]
     const randomC = colors[Math.floor(Math.random() * colors.length)]
@@ -58,5 +58,5 @@ geeButton.addEventListener('click', () =>  {
     quoteText.textContent = randomQ;
    body.style.backgroundColor = randomC;
    button.style.backgroundColor = randomC;
-  globe.style.backgroundColor = randomC;
+ 
 });
