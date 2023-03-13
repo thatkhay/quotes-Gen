@@ -35,7 +35,7 @@ button {
   transition: 0.5s;
   height: 2.5rem;
   width: 6rem;
-background-color: violet;
+background-color: rgb(101, 84, 107);
 border-radius: 20px;
 border: 2px solid rgb(248, 247, 248);
  
